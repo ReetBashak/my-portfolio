@@ -2,7 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 // Define the path to your CV file.
-const CV_FILE_PATH = "/cv.pdf"; 
+const CV_FILE_PATH = "public/assets/projects/resume.pdf"; 
 
 function Navigation() {
   return (
