@@ -39,8 +39,8 @@ const Hero = () => {
                 >
                     {/* 🚨 IMPORTANT: Replace 'assets/my-image.png' with your actual profile picture path */}
                     <img 
-                        src="assets/my-image.png" 
-                        alt="Ritika - Full Stack Developer" 
+                        src="public/assets/socials/ritika.png" 
+                        alt="Ritika - Mern Stack Developer" 
                         // Styling for a professional, slightly elevated look
                         className="w-full max-w-xs md:max-w-md h-auto object-cover rounded-xl shadow-2xl shadow-purple-500/50 transition-transform hover:scale-[1.02] duration-300"
                     />
