@@ -1,8 +1,9 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-// Define the path to your CV file.
-const CV_FILE_PATH = "public/assets/projects/resume.pdf"; 
+// FIX: Change the path to be relative to the deployment root (/). 
+// Assets in the public folder must omit the 'public/' prefix in the code.
+const CV_FILE_PATH = "/assets/projects/resume.pdf"; 
 
 function Navigation() {
   return (
@@ -44,10 +45,12 @@ const Navbar = () => {
   // --- Download CV Button Component (Simple) ---
   const DownloadCVButton = ({ classes, onClick = () => {} }) => (
     <a
-      href={CV_FILE_PATH}
-      download
+      href={CV_FILE_PATH} // This now uses the corrected path: /assets/projects/resume.pdf
+      download="Ritika_Bashak_CV.pdf" // Added an explicit file name for better user experience
       className={classes}
       onClick={onClick}
+      target="_blank" // Open in new tab (good practice for downloads)
+      rel="noopener noreferrer"
     >
       Download CV
     </a>
@@ -69,8 +72,12 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
             className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden"
           >
+            {/* NOTE: You should also check the paths for your menu/close SVGs! 
+                If they are in 'public/assets/', the path should be '/assets/menu.svg'. 
+                Assuming 'assets/' is directly under public/
+            */}
             <img
-              src={isOpen ? "assets/close.svg" : "assets/menu.svg"}
+              src={isOpen ? "/assets/close.svg" : "/assets/menu.svg"}
               className="w-6 h-6"
               alt="toggle"
             />
