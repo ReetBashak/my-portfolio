@@ -30,7 +30,7 @@ export const myProjects = [
   },
   {
     id: 2,
-    title: "Task Manager App (ManagePro)",
+    title: "Office Task Management App (ManagePro)",
     description:
       "A professional task management application designed to organize, track, and prioritize daily tasks and projects, enhancing productivity.",
     subDescription: [
