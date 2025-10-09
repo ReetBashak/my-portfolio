@@ -7,9 +7,9 @@ Platform
 
 Link
 
-View on Vercel ((https://portfolio-liard-nine-0s5qaot5te.vercel.app/))
+View on Vercel (https://my-portfolio-seven-opal-12.vercel.app/)
 
-View on GitHub (https://github.com/ReetBashak/portfolio)
+View on GitHub (https://github.com/ReetBashak/my-portfolio)
 
 Key Frontend Technologies
 This portfolio uses a modern development stack to deliver a high-quality, engaging user interface.
