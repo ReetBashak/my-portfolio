@@ -1,9 +1,7 @@
 import { useState } from "react";
-// Remove: import emailjs from "@emailjs/browser"; // We are no longer using Email.js
 import Alert from "../components/Alert";
 import { Particles } from "../components/Particles";
 
-// 🔥🔥🔥 CORRECTION 1: Get Web3Forms Key from .env 🔥🔥🔥
 const ACCESS_KEY = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
 
 const Contact = () => {
@@ -42,7 +40,6 @@ const Contact = () => {
     }
 
     try {
-      // 🔥🔥🔥 CORRECTION 2: Use native fetch for Web3Forms 🔥🔥🔥
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
@@ -50,11 +47,10 @@ const Contact = () => {
           "Accept": "application/json"
         },
         body: JSON.stringify({
-          access_key: ACCESS_KEY, // Pass your secret key
+          access_key: ACCESS_KEY, 
           name: formData.name,
           email: formData.email,
           message: formData.message,
-          // You can add 'from_name' or other custom fields here
           subject: `New Portfolio Message from ${formData.name}`,
         }),
       });
@@ -65,7 +61,6 @@ const Contact = () => {
         setFormData({ name: "", email: "", message: "" });
         showAlertMessage("success", "Your message has been sent successfully!");
       } else {
-        // Handle API errors (e.g., failed validation, bad key)
         showAlertMessage("danger", data.message || "Something went wrong!");
         console.error("Web3Forms Error:", data);
       }
