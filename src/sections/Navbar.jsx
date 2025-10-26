@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-// FIX: Change the path to be relative to the deployment root (/). 
-// Assets in the public folder must omit the 'public/' prefix in the code.
 const CV_FILE_PATH = "/assets/projects/resume.pdf"; 
 
 function Navigation() {
@@ -35,21 +33,20 @@ function Navigation() {
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   
-  // Minimal styles for the button, keeping it basic to avoid extra changes
   const buttonClasses = "ml-4 px-3 py-1.5 text-sm font-medium border border-neutral-400 rounded-lg hover:border-white hover:text-white transition-colors";
   
   // Re-used the nav-link styles for the mobile button
   const mobileButtonClasses = "nav-link block py-2 px-4 mx-auto w-fit text-neutral-400 hover:text-white transition-colors";
 
 
-  // --- Download CV Button Component (Simple) ---
+  // --- Download CV Button Component  ---
   const DownloadCVButton = ({ classes, onClick = () => {} }) => (
     <a
-      href={CV_FILE_PATH} // This now uses the corrected path: /assets/projects/resume.pdf
-      download="Ritika_Bashak_CV.pdf" // Added an explicit file name for better user experience
+      href={CV_FILE_PATH} 
+      download="Ritika_Bashak_CV.pdf" 
       className={classes}
       onClick={onClick}
-      target="_blank" // Open in new tab (good practice for downloads)
+      target="_blank" // Open in new tab 
       rel="noopener noreferrer"
     >
       Download CV
@@ -72,10 +69,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
             className="flex cursor-pointer text-neutral-400 hover:text-white focus:outline-none sm:hidden"
           >
-            {/* NOTE: You should also check the paths for your menu/close SVGs! 
-                If they are in 'public/assets/', the path should be '/assets/menu.svg'. 
-                Assuming 'assets/' is directly under public/
-            */}
+            
             <img
               src={isOpen ? "/assets/close.svg" : "/assets/menu.svg"}
               className="w-6 h-6"
