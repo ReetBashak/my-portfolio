@@ -221,11 +221,11 @@ export const experiences = [
   {
     title: "MERN Stack Developer",
     job: "Devex Hub Pvt Ltd",
-    date: "Training",
+    date: "July 2025 - Nov 2025",
     contents: [
-      "Persuing a comprehensive MERN Stack development course, gaining expertise in MongoDB, Express.js, React.js, and Node.js.",
-      "Gained hands-on experience building full-stack, scalable web applications, covering both front-end (React) and back-end (Node/Express) technologies.",
-      "Developed several personal projects to apply concepts learned and build a strong portfolio.",
+      "Completed a comprehensive MERN Stack development program, mastering MongoDB, Express.js, React.js, and Node.js.",
+      "Engineered full-stack, scalable web applications, integrating front-end React interfaces with robust Node/Express back-end systems.",
+      "Successfully delivered multiple end-to-end projects, focusing on responsive design, API integration, and database management.",
     ],
   },
   {
