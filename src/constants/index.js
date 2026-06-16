@@ -174,12 +174,12 @@ export const myProjects = [
       {
         id: 1,
         name: "MongoDB",
-        path: "/assets/logos/mongodb.svg",
+        path: "/assets/logos/mongodb.png",
       },
       {
         id: 2,
         name: "Express",
-        path: "/assets/logos/express.svg",
+        path: "/assets/logos/express.png",
       },
       {
         id: 3,
@@ -189,7 +189,7 @@ export const myProjects = [
       {
         id: 4,
         name: "Node.js",
-        path: "/assets/logos/node.svg",
+        path: "/assets/logos/nodejs.png",
       },
     ],
   },
@@ -210,13 +210,12 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Post Graduation (M.Sc. IT)",
-    job: "Punjab Technical University",
-    date: "2026 - Present",
-    contents: [
-      "Currently pursuing a Master of Science in Information Technology.",
-      "Focusing on advanced IT frameworks, software development methodologies, and emerging technologies.",
-    ],
+    title: "Post Graduation (MCA)",
+date: "2026 - Present",
+contents: [
+  "Currently pursuing a Master of Computer Applications.",
+  "Focusing on advanced IT frameworks, software development methodologies, and emerging technologies.",
+],
   },
   {
     title: "MERN Stack Developer",
