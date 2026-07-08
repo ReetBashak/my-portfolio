@@ -210,11 +210,13 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Post Graduation (MCA)",
-date: "2026 - Present",
+title: "MBA in Business Analytics & Information Technology",
+job: "Lovely Professional University (LPU)",
+date: "July 2026 - Present (Expected 2028)",
 contents: [
-  "Currently pursuing a Master of Computer Applications.",
-  "Focusing on advanced IT frameworks, software development methodologies, and emerging technologies.",
+  "Pursuing a dual-specialization MBA combining Business Analytics and IT, focusing on data-driven strategy and modern enterprise technology systems.",
+  "Developing expertise in business intelligence, predictive modeling, and IT management to bridge the gap between technical infrastructure and corporate decision-making.",
+  "Engaging in practical projects that apply advanced data analytics to solve complex IT and operational business challenges.",
 ],
   },
   {
