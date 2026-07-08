@@ -208,55 +208,152 @@ export const mySocials = [
   },
 ];
 
+// export const experiences = [
+//   {
+// title: "MBA in Business Analytics and informatio",
+// job: "Lovely Professional University (LPU)",
+// date: "July 2026 - Present (Expected 2028)",
+// contents: [
+//   "Pursuing an advanced Master of Business Administration specializing in Business Analytics, focusing on data-driven decision-making and strategic management.",
+//   "Developing expertise in data visualization, predictive modeling, and business intelligence tools to solve complex corporate challenges.",
+//   "Engaging in rigorous coursework and practical projects that bridge the gap between business strategy and data analytics.",
+// ],
+//   },
+//   {
+//     title: "MERN Stack Developer",
+//     job: "Devex Hub Pvt Ltd",
+//     date: "July 2025 - Nov 2025",
+//     contents: [
+//       "Completed a comprehensive MERN Stack development program, mastering MongoDB, Express.js, React.js, and Node.js.",
+//       "Engineered full-stack, scalable web applications, integrating front-end React interfaces with robust Node/Express back-end systems.",
+//       "Successfully delivered multiple end-to-end projects, focusing on responsive design, API integration, and database management.",
+//     ],
+//   },
+//   {
+//     title: "Graduation (BCA)",
+//     job: "Himachal Pradesh University",
+//     date: "2022-2025",
+//     contents: [
+//       "Overall Grade: CGPA of 7.7",
+//       "Completed a Bachelor of Computer Applications, gaining a strong foundation in computer science and programming principles.",
+//       "Developed problem-solving skills and learned core concepts in data structures, algorithms, and software development.",
+//     ],
+//   },
+//   {
+//     title: "12th Standard",
+//     job: "HP Board",
+//     date: "2021-2022",
+//     contents: [
+//       "Overall Academic Performance: 91% (Grade A)",
+//       "Successfully completed 12th grade under the Himachal Pradesh Board.",
+//     ],
+//   },
+//   {
+//     title: "10th Standard",
+//     job: "HP Board",
+//     date: "2019-2020",
+//     contents: [
+//       "Final Score: 78%",
+//       "Successfully completed 10th grade under the Himachal Pradesh Board.",
+//     ],
+//   },
+// ];
 export const experiences = [
   {
-title: "MBA in Business Analytics & Information Technology",
-job: "Lovely Professional University (LPU)",
-date: "July 2026 - Present (Expected 2028)",
-contents: [
-  "Pursuing a dual-specialization MBA combining Business Analytics and IT, focusing on data-driven strategy and modern enterprise technology systems.",
-  "Developing expertise in business intelligence, predictive modeling, and IT management to bridge the gap between technical infrastructure and corporate decision-making.",
-  "Engaging in practical projects that apply advanced data analytics to solve complex IT and operational business challenges.",
-],
+    title: "MBA in Business Analytics & IT",
+    job: "MBA in Business Analytics & IT | Lovely Professional University ",
+    company_name: "MBA in Business Analytics & IT | Lovely Professional University ",
+    company: "MBA in Business Analytics & IT | Lovely Professional University ",
+    subtitle: "MBA in Business Analytics & IT | Lovely Professional University ",
+    institution: "MBA in Business Analytics & IT | Lovely Professional University ",
+    date: "July 2026 - Present (Expected 2028)",
+    contents: [
+      "Pursuing an advanced Master of Business Administration specializing in Business Analytics, focusing on data-driven decision-making and strategic management.",
+      "Developing expertise in data visualization, predictive modeling, and business intelligence tools to solve complex corporate challenges.",
+      "Engaging in rigorous coursework and practical projects that bridge the gap between business strategy and data analytics.",
+    ],
+    points: [
+      "Pursuing an advanced Master of Business Administration specializing in Business Analytics, focusing on data-driven decision-making and strategic management.",
+      "Developing expertise in data visualization, predictive modeling, and business intelligence tools to solve complex corporate challenges.",
+      "Engaging in rigorous coursework and practical projects that bridge the gap between business strategy and data analytics.",
+    ],
+    description: "Lovely Professional University | July 2026 - Present (Expected 2028)"
   },
   {
-    title: "MERN Stack Developer",
-    job: "Devex Hub Pvt Ltd",
+    title: "MERN Stack Developer Training",
+    job: "MERN Stack Developer | Devex Hub Pvt Ltd",
+    company_name: "MERN Stack Developer | Devex Hub Pvt Ltd",
+    company: "MERN Stack Developer | Devex Hub Pvt Ltd",
+    subtitle: "MERN Stack Developer | Devex Hub Pvt Ltd",
+    institution: "MERN Stack Developer | Devex Hub Pvt Ltd",
     date: "July 2025 - Nov 2025",
     contents: [
       "Completed a comprehensive MERN Stack development program, mastering MongoDB, Express.js, React.js, and Node.js.",
       "Engineered full-stack, scalable web applications, integrating front-end React interfaces with robust Node/Express back-end systems.",
       "Successfully delivered multiple end-to-end projects, focusing on responsive design, API integration, and database management.",
     ],
+    points: [
+      "Completed a comprehensive MERN Stack development program, mastering MongoDB, Express.js, React.js, and Node.js.",
+      "Engineered full-stack, scalable web applications, integrating front-end React interfaces with robust Node/Express back-end systems.",
+      "Successfully delivered multiple end-to-end projects, focusing on responsive design, API integration, and database management.",
+    ],
+    description: "Devex Hub Pvt Ltd | July 2025 - Nov 2025"
   },
   {
     title: "Graduation (BCA)",
-    job: "Himachal Pradesh University",
+    job: "BCA | Himachal Pradesh University",
+    company_name: "BCA | Himachal Pradesh University",
+    company: "BCA | Himachal Pradesh University",
+    subtitle: "BCA | Himachal Pradesh University",
+    institution: "BCA | Himachal Pradesh University",
     date: "2022-2025",
     contents: [
       "Overall Grade: CGPA of 7.7",
       "Completed a Bachelor of Computer Applications, gaining a strong foundation in computer science and programming principles.",
       "Developed problem-solving skills and learned core concepts in data structures, algorithms, and software development.",
     ],
+    points: [
+      "Overall Grade: CGPA of 7.7",
+      "Completed a Bachelor of Computer Applications, gaining a strong foundation in computer science and programming principles.",
+      "Developed problem-solving skills and learned core concepts in data structures, algorithms, and software development.",
+    ],
+    description: "Himachal Pradesh University | 2022-2025"
   },
   {
     title: "12th Standard",
-    job: "HP Board",
+    job: "12th Standard | HP Board",
+    company_name: "12th Standard | HP Board",
+    company: "12th Standard | HP Board",
+    subtitle: "12th Standard | HP Board",
+    institution: "12th Standard | HP Board",
     date: "2021-2022",
     contents: [
       "Overall Academic Performance: 91% (Grade A)",
       "Successfully completed 12th grade under the Himachal Pradesh Board.",
     ],
+    points: [
+      "Overall Academic Performance: 91% (Grade A)",
+      "Successfully completed 12th grade under the Himachal Pradesh Board.",
+    ],
+    description: "HP Board | 2021-2022"
   },
   {
     title: "10th Standard",
-    job: "HP Board",
+    job: "10th Standard | HP Board",
+    company_name: "10th Standard | HP Board",
+    company: "10th Standard | HP Board",
+    subtitle: "10th Standard | HP Board",
+    institution: "10th Standard | HP Board",
     date: "2019-2020",
     contents: [
       "Final Score: 78%",
       "Successfully completed 10th grade under the Himachal Pradesh Board.",
     ],
+    points: [
+      "Final Score: 78%",
+      "Successfully completed 10th grade under the Himachal Pradesh Board.",
+    ],
+    description: "HP Board | 2019-2020"
   },
 ];
-
 export const reviews = [];
